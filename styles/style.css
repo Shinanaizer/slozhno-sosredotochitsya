@@ -5,7 +5,7 @@
   display: grid;
   grid-template-rows: repeat (auto-fit, minmax(min(375px, 100%), 1fr));
   justify-content: center;
-  width: 375px;
+  max-width: 375px;
   position: relative;
   row-gap: 40px;
 }
@@ -160,7 +160,7 @@
   width: 100%;
 }
 
-.link  {
+.link {
   text-shadow: 2px 2px 1px var(--shadow-color);
   outline: transparent solid 1px;
 }

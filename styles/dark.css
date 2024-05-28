@@ -20,10 +20,10 @@
   --accent-title-color: rgb(255, 0, 112);
   --main-header-color: #DB00FF;
   --shadow-color: rgb(255, 0, 112);
-  --main-font: 'IBM Plex Mono', sans-serif;
-  --background-picture: url(../images/cover-image-dark.png);
   --buttons-n-corners: rgb(255, 0, 112);
   --opacity-half-button: 255, 0, 112;
+  --main-font: 'IBM Plex Mono', sans-serif;
+  --background-picture: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .decor {
