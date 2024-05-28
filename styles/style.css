@@ -45,7 +45,7 @@
 }
 
 .decor {
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: var(--main-font);
   font-weight: 400px;
   font-size: 18px;
   line-height: 23.4px;
