@@ -12,6 +12,24 @@
 }
 
 :root .theme_light {
+  --accent-color: #FF8DCB;
+  --light-text-color: #353430;
+  --dark-text-color: #353430;
+  --accent-title-color: #353430;
+  --main-header-color: #FFC2E6;
+  --shadow-color: rgb(255, 0, 112);
+  --buttons-n-corners: #353430;
+  --opacity-half-button: 53, 52, 48;
+  --main-font: 'IBM Plex Mono', sans-serif;
+  --background-picture: url(../images/cover-image-light.png);
+}
+
+.theme_light .decor {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
     --accent-color: #FF8DCB;
     --light-text-color: #353430;
     --dark-text-color: #353430;
@@ -24,28 +42,9 @@
     --background-picture: url(../images/cover-image-light.png);
   }
 
-.theme_light .decor {
-  display: none;
-}
-
-@media (prefers-color-scheme: light) {
-:root {
-  --accent-color: #FF8DCB;
-  --light-text-color: #353430;
-  --dark-text-color: #353430;
-  --accent-title-color: #353430;
-  --main-header-color: #FFC2E6;
-  --shadow-color: rgb(255, 0, 112);
-  --buttons-n-corners: #353430;
-  --opacity-half-button: 53, 52, 48;
-  --main-font: 'IBM Plex Mono', sans-serif;
-  --background-picture: url(../images/cover-image-light.png);    
-  }
-
   .theme_light .decor {
     display: none;
   }
 }
 
 /* Остальные стили */
-
