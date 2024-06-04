@@ -26,6 +26,6 @@
   --background-picture: url(../images/cover-image-dark.png);
 }
 
-.theme-dark .decor {
+.theme_dark .decor {
   display: block;
 }

@@ -42,9 +42,8 @@
     --background-picture: url(../images/cover-image-light.png);
   }
 
-  .theme_light .decor {
+  .theme_auto .decor {
     display: none;
   }
 }
 
-/* Остальные стили */
